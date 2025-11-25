@@ -260,7 +260,7 @@ A simple contribution workflow:
 
 License
 -------
-This repository is distributed under the MIT License. See LICENSE file for details.
+This repository is distributed under the MIT License. See the LICENSE file for details.
 
 (If you prefer a different license, replace this section and update the LICENSE file accordingly.)
 
@@ -279,7 +279,7 @@ A:
 - Check for data leakage between train and validation sets.
 - Reduce learning rate or use a scheduler.
 - Ensure augmentations are appropriate and not excessively corrupting images.
-- Try freezing backbone and training head first.
+- Try freezing the backbone and training head first.
 
 Q: Model overfits quickly
 A:
@@ -297,14 +297,5 @@ A:
 Q: Inference is too slow for deployment
 A:
 - Convert model to ONNX / TensorRT or use TFLite for mobile.
-- Prune or quantize model to reduce size and latency.
+- Prune or quantise the model to reduce size and latency.
 - Use a smaller backbone for edge deployment.
-
-Final notes
------------
-This README aims to be a complete starting guide. If you want, I can:
-- Generate a shorter README (one-page)
-- Create example scripts (train.py, predict.py) or a notebook for demo
-- Add CI configuration or a GitHub Action to run tests/formatting
-
-Would you like me to generate any runnable example scripts (train/predict) tailored to PyTorch or TensorFlow, or draft a short contributing guide/PR template next?
